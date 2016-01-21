@@ -12,7 +12,7 @@ server.basePath: "/kibana-new"
 # server.maxPayloadBytes: 1048576
 
 # The URL of the Elasticsearch instance to use for all your queries.
-elasticsearch.url: "http://ship.glgresearch.com/elastic/"
+elasticsearch.url: "http://notsplunk-internal.glgresearch.com/elastic/"
 
 # When this setting’s value is true Kibana uses the hostname specified in the server.host
 # setting. When the value of this setting is false, Kibana uses the hostname of the host
