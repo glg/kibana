@@ -12,7 +12,7 @@ server.basePath: "/kibana"
 # server.maxPayloadBytes: 1048576
 
 # The Elasticsearch instance to use for all your queries.
-elasticsearch.url: "http://notsplunk-internal.glgresearch.com/elastic/"
+elasticsearch.url: "http://notsplunk-internal.glgresearch.com:80/elastic/"
 
 # preserve_elasticsearch_host true will send the hostname specified in `elasticsearch`. If you set it to false,
 # then the host you use to connect to *this* Kibana instance will be sent.
