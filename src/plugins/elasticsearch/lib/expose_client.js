@@ -42,7 +42,6 @@ module.exports = function (server) {
 
     const host = {
       host: uri.hostname,
-      port: uri.port,
       protocol: uri.protocol,
       path: uri.pathname,
       auth: uri.auth,
