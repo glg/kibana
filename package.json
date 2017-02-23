@@ -50,7 +50,7 @@
     "test:coverage": "grunt test:coverage",
     "build": "grunt build",
     "release": "grunt release",
-    "start": "./bin/kibana --dev",
+    "start": "npm install && ./bin/kibana",
     "precommit": "grunt precommit",
     "karma": "karma start",
     "elasticsearch": "grunt esvm:dev:keepalive",
